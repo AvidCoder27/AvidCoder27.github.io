@@ -1,0 +1,38 @@
+body {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-size: 22px;
+  line-height: 1.5;
+  margin: 10px;
+}
+
+img {
+  max-width: 400px;
+  max-height: 400px;
+  height: auto;
+  display: block;
+  margin: 0.5em 0;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 1em 0;
+  width: 100%;
+}
+
+th,
+td {
+  border: 1px solid #ccc;
+  padding: 6px 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+table td:first-child,
+table th:first-child {
+  font-weight: bold;
+  background-color: #f7f7f7;
+}
